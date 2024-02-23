@@ -7,7 +7,7 @@ function Navbar() {
         <div className="flex items-center justify-between">
           {/* logo= */}
           <div className="flex items-center gap-[10px]">
-            <span className="w-[35px] h-[42px] bg-blue-800 text-white text-[18px] font-[500] rounded-full flex items-center justify-center">
+            <span className="w-[35px] h-[42px] bg-[#013be8] text-white text-[18px] font-[500] rounded-sm  flex items-center justify-center">
               VJ
             </span>
             <div className="leading-[20px]">
@@ -47,7 +47,7 @@ function Navbar() {
 
           {/* menu right btn start */}
           <div className="flex items-center">
-            <button className="flex items-center gap-2 font-[600] border-2 border-solid border-white py-2 px-4 rounded-full h-14   bg-[#2b59e1] hover:text-white hover:font-[500] ease-in duration-300">
+            <button className="flex items-center gap-2 font-[600] hover:border-2 hover:border-white py-2 px-4 rounded-full h-14   bg-[#2b59e1] hover:text-white hover:font-[500] ease-in duration-300">
               <i className="ri-send-plane-line"></i> Notifications
             </button>
           </div>
