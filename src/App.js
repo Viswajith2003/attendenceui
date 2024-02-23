@@ -1,9 +1,12 @@
-import './App.css';
+import "./App.css";
+import Navbar from "./Components/Navbar";
+import Home from "./UI/Home";
 
 function App() {
   return (
     <div className="container">
-        <h1 className='font-bold text-5xl'>Hello react</h1>
+      <Navbar />
+      <Home />
     </div>
   );
 }
