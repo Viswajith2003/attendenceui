@@ -1,6 +1,7 @@
 import "./App.css";
-import Navbar from "./Components/Navbar";
 import Home from "./UI/Home";
+import 'aos/dist/aos.css'; // Import the AOS styles
+import AOS from 'aos';
 
 
 function App() {

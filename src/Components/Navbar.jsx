@@ -2,11 +2,14 @@ import React from "react";
 
 function Navbar() {
   return (
-    <header className="h-[100px] leading-[80px]  text-white flex items-center">
+    <header
+      className="h-[100px] leading-[80px]  text-white flex items-center"
+      data-aos="fade-down"
+    >
       <div className="container">
         <div className="flex items-center justify-between">
           {/* logo= */}
-          <div className="flex items-center gap-[10px]">
+          <div className="flex items-center gap-[10px] mt-4">
             <span className="w-[35px] h-[42px] bg-[#013be8] text-white text-[18px] font-[500] rounded-sm  flex items-center justify-center">
               VJ
             </span>
@@ -22,22 +25,22 @@ function Navbar() {
           <div className="menu">
             <ul className="flex items-center gap-14 bg-black rounded-full pl-10 pr-10 h-16">
               <li>
-                <a className="font-[600]" href="#home">
+                <a className="font-[600] hover:text-blue-500" href="#home">
                   Service
                 </a>
               </li>
               <li>
-                <a className="font-[600]" href="#skill">
+                <a className="font-[600] hover:text-blue-500" href="#skill">
                   About
                 </a>
               </li>
               <li>
-                <a className="font-[600]" href="#project">
+                <a className="font-[600] hover:text-blue-500" href="#project">
                   Contact
                 </a>
               </li>
               <li>
-                <a className="font-[600]" href="#contact">
+                <a className="font-[600] hover:text-blue-500" href="#contact">
                   FAQ
                 </a>
               </li>
@@ -47,7 +50,7 @@ function Navbar() {
 
           {/* menu right btn start */}
           <div className="flex items-center">
-            <button className="flex items-center gap-2 font-[600] py-2 px-4 rounded-full h-14   bg-[#2b59e1] hover:text-white hover:font-[500] ease-in duration-300">
+            <button className="flex items-center hover:bg-white hover:text-black hover:text-[20px] gap-2 font-[600] py-2 px-4 rounded-full h-14   bg-[#2b59e1] ease-in duration-300">
               <i className="ri-send-plane-line"></i> Notifications
             </button>
           </div>
