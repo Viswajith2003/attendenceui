@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <header className="h-[100px] leading-[80px] bg-[#2544a1] text-white flex items-center">
+    <header className="h-[100px] leading-[80px]  text-white flex items-center">
       <div className="container">
         <div className="flex items-center justify-between">
           {/* logo= */}
@@ -20,7 +20,7 @@ function Navbar() {
           {/* Logo End */}
           {/* menu start */}
           <div className="menu">
-            <ul className="flex items-center gap-14 bg-black rounded-full pl-8 pr-8 h-14">
+            <ul className="flex items-center gap-14 bg-black rounded-full pl-10 pr-10 h-16">
               <li>
                 <a className="font-[600]" href="#home">
                   Service
@@ -47,7 +47,7 @@ function Navbar() {
 
           {/* menu right btn start */}
           <div className="flex items-center">
-            <button className="flex items-center gap-2 font-[600] hover:border-2 hover:border-white py-2 px-4 rounded-full h-14   bg-[#2b59e1] hover:text-white hover:font-[500] ease-in duration-300">
+            <button className="flex items-center gap-2 font-[600] py-2 px-4 rounded-full h-14   bg-[#2b59e1] hover:text-white hover:font-[500] ease-in duration-300">
               <i className="ri-send-plane-line"></i> Notifications
             </button>
           </div>
